@@ -1,0 +1,17 @@
+/* Mobile First Approach */
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 80%;
+    }
+    
+    .grid-system {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
